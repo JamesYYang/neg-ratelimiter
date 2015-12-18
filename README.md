@@ -35,6 +35,13 @@ nair.init(options, (err) => { //need a few seconds to init connection
 
 }
 
+var opts = {
+  area: 5,
+  nair: nair,
+  max: 10,
+  duration: 20
+};
+
 var app = express();
 app.use(negLimiter(opts));
 
