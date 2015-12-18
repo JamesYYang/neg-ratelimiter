@@ -1,0 +1,27 @@
+{
+  "name": "neg-ratelimiter",
+  "version": "1.0.0",
+  "description": "a express middleware for rate limit in Newegg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesYYang/neg-ratelimiter.git"
+  },
+  "keywords": [
+    "newegg",
+    "express",
+    "ratelimiter"
+  ],
+  "author": "James.Y.Yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesYYang/neg-ratelimiter/issues"
+  },
+  "homepage": "https://github.com/JamesYYang/neg-ratelimiter#readme",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
